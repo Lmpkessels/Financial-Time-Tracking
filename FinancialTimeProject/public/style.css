@@ -1,0 +1,79 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Full page styling */
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #d9e6c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main hero heading */
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.intrigue-line {
+  margin-bottom: 15px;
+}
+
+.container h1 {
+  font-size: 32px;
+  color: #4a6bc2;
+}
+
+.sub-heading {
+  font-family: sans-serif;
+  color: #000000;
+  margin-top: 15px;
+}
+
+/* Video area */
+.video-sales-letter,
+#vsl {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 18px;
+}
+
+/* CTA Button */
+.call-to-action {
+  font-family: sans-serif;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #4a6bc2;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.call-to-action:hover {
+  background-color: #3b5ba4;
+  color: #000000;
+}
+
+.button-wrapper {
+  margin-top: 35px;
+}
